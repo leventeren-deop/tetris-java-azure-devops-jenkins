@@ -56,7 +56,11 @@ GEM
       concurrent-ruby (~> 1.0)
     jmespath (1.6.2)
     memoist (0.16.2)
+    mini_portile2 (2.8.9)
     minitest (5.17.0)
+    nokogiri (1.14.0)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.14.0-x86_64-darwin)
       racc (~> 1.4)
     racc (1.6.2)
@@ -88,7 +92,7 @@ GEM
       rainbow
       rspec
       zeitwerk
-    rubyzip (2.3.2)
+    rubyzip (3.4.0)
     terraspace (2.2.3)
       activesupport
       bundler
@@ -136,6 +140,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   rspec-terraspace
